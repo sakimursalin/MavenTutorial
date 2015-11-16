@@ -18,7 +18,7 @@ public class TC_002_verifyLogInLogOut {
 	
 	@Test(priority =3, dependsOnMethods = {"method1ForTC2"}, groups ={"Smoke", "Regression"})
 	public static void logInLogOut() {
-		System.out.println("SignOut Executed");
+		System.out.println("SignOut has been Executed successfully");
 	}	
 	
 	
