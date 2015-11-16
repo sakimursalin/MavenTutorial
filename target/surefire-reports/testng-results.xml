@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Maven Test" duration-ms="87" started-at="2015-11-12T10:24:20Z" finished-at="2015-11-12T10:24:20Z">
+    <groups>
+      <group name="Regression">
+        <method signature="TC_002_verifyLogInLogOut.logInLogOut()[pri:0, instance:com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut@3d24753a]" name="logInLogOut" class="com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut"/>
+        <method signature="TC_002_verifyLogInLogOut.method2ForTC2()[pri:0, instance:com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut@3d24753a]" name="method2ForTC2" class="com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut"/>
+        <method signature="TC_003_verifyShoppingWithLoginAndLogOut.verifyShopping()[pri:0, instance:com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut@59a6e353]" name="verifyShopping" class="com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut"/>
+        <method signature="TC_004_verifyShoppingEvenAfterLogInFailed.logIn()[pri:0, instance:com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed@6fadae5d]" name="logIn" class="com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed"/>
+        <method signature="TC_004_verifyShoppingEvenAfterLogInFailed.logOut()[pri:0, instance:com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed@6fadae5d]" name="logOut" class="com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed"/>
+        <method signature="TC_004_verifyShoppingEvenAfterLogInFailed.sds()[pri:0, instance:com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed@6fadae5d]" name="sds" class="com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TC_002_verifyLogInLogOut.method1ForTC2()[pri:0, instance:com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut@3d24753a]" name="method1ForTC2" class="com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut"/>
+        <method signature="TC_002_verifyLogInLogOut.logInLogOut()[pri:0, instance:com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut@3d24753a]" name="logInLogOut" class="com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut"/>
+      </group> <!-- Smoke -->
+      <group name="Performance">
+        <method signature="TC_003_verifyShoppingWithLoginAndLogOut.verifyShopping()[pri:0, instance:com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut@59a6e353]" name="verifyShopping" class="com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut"/>
+      </group> <!-- Performance -->
+    </groups>
+    <test name="Regression Testing" duration-ms="87" started-at="2015-11-12T10:24:20Z" finished-at="2015-11-12T10:24:20Z">
+      <class name="com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed@6fadae5d]" name="logIn" duration-ms="0" started-at="2015-11-12T05:24:20Z" finished-at="2015-11-12T05:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="sds()[pri:0, instance:com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed@6fadae5d]" name="sds" duration-ms="0" started-at="2015-11-12T05:24:20Z" finished-at="2015-11-12T05:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sds -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed@6fadae5d]" name="logOut" duration-ms="1" started-at="2015-11-12T05:24:20Z" depends-on-methods="com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed.logIn" finished-at="2015-11-12T05:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed -->
+      <class name="com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut">
+        <test-method status="PASS" signature="verifyShopping()[pri:0, instance:com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut@59a6e353]" name="verifyShopping" duration-ms="1" started-at="2015-11-12T05:24:20Z" finished-at="2015-11-12T05:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopping -->
+      </class> <!-- com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut -->
+      <class name="com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut">
+        <test-method status="PASS" signature="method1ForTC2()[pri:0, instance:com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut@3d24753a]" name="method1ForTC2" duration-ms="20" started-at="2015-11-12T05:24:20Z" finished-at="2015-11-12T05:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1ForTC2 -->
+        <test-method status="PASS" signature="method2ForTC2()[pri:0, instance:com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut@3d24753a]" name="method2ForTC2" duration-ms="1" started-at="2015-11-12T05:24:20Z" depends-on-methods="com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut.method1ForTC2" finished-at="2015-11-12T05:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2ForTC2 -->
+        <test-method status="PASS" signature="logInLogOut()[pri:0, instance:com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut@3d24753a]" name="logInLogOut" duration-ms="7" started-at="2015-11-12T05:24:20Z" depends-on-methods="com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut.method1ForTC2" finished-at="2015-11-12T05:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInLogOut -->
+      </class> <!-- com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut -->
+    </test> <!-- Regression Testing -->
+  </suite> <!-- Maven Test -->
+</testng-results>

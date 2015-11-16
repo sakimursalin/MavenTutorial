@@ -1,0 +1,5 @@
+com\maven\package_1\MavenTest2\AppTest.class
+com\maven\package_1\MavenTest2\TC_004_verifyShoppingEvenAfterLogInFailed.class
+com\maven\package_1\MavenTest2\TC_001_verifyFirstPage.class
+com\maven\package_1\MavenTest2\TC_002_verifyLogInLogOut.class
+com\maven\package_1\MavenTest2\TC_003_verifyShoppingWithLoginAndLogOut.class

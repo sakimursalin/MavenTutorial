@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Maven Test" duration-ms="69" started-at="2015-11-12T09:18:44Z" finished-at="2015-11-12T09:18:44Z">
+    <groups>
+      <group name="Regression">
+        <method signature="TC_003_verifyShoppingWithLoginAndLogOut.verifyShopping()[pri:0, instance:com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut@7f63425a]" name="verifyShopping" class="com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut"/>
+      </group> <!-- Regression -->
+      <group name="Performance">
+        <method signature="TC_003_verifyShoppingWithLoginAndLogOut.verifyShopping()[pri:0, instance:com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut@7f63425a]" name="verifyShopping" class="com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut"/>
+      </group> <!-- Performance -->
+    </groups>
+    <test name="Regression Testing" duration-ms="69" started-at="2015-11-12T09:18:44Z" finished-at="2015-11-12T09:18:44Z">
+      <class name="com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut">
+        <test-method status="PASS" signature="verifyShopping()[pri:0, instance:com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut@7f63425a]" name="verifyShopping" duration-ms="33" started-at="2015-11-12T04:18:44Z" finished-at="2015-11-12T04:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopping -->
+      </class> <!-- com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut -->
+    </test> <!-- Regression Testing -->
+  </suite> <!-- Maven Test -->
+</testng-results>

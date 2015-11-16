@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maven Test">
+  <test name="Regression Testing">
+     <groups>
+    	<run>
+    		<include name = "Regression" />
+    	</run>
+    </groups>
+    <classes>
+     	<class name="com.maven.package_1.MavenTest2.TC_001_verifyFirstPage"/>
+      	<class name="com.maven.package_1.MavenTest2.TC_002_verifyLogInLogOut"/>
+      	<class name="com.maven.package_1.MavenTest2.TC_003_verifyShoppingWithLoginAndLogOut"/>
+      	<class name="com.maven.package_1.MavenTest2.TC_004_verifyShoppingEvenAfterLogInFailed"/>
+     </classes>
+  </test> <!-- Regression Testing -->
+</suite> <!-- Maven Test -->
