@@ -6,7 +6,7 @@ public class TC_001_verifyFirstPage {
 
 	@Test (groups = "Smoke")
 	public static void verifyFirstPageLink() {
-		System.out.println("All links are functioning");
+		System.out.println("All links are functioning: Perfect");
 	}
 
 }
