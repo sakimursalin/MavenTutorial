@@ -8,7 +8,7 @@ public class TC_002_verifyLogInLogOut {
 	
 	@Test (priority=1, groups = "Smoke")
 	public static void method1ForTC2() {
-		System.out.println("SignIn Executed: Otherwise it would be a Showstopper");
+		System.out.println("SignIn has been Executed: Otherwise it would be a Showstopper");
 	}
 	
 	@Test(priority=2, dependsOnMethods = {"method1ForTC2"}, groups ="Regression")
